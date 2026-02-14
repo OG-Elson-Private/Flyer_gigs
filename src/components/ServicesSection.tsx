@@ -3,6 +3,7 @@ const services = [
   "Transport de meubles & électroménager",
   "Livraison achats 2ememain / Marketplace / IKEA",
   "Transport de colis & marchandises",
+  "Tous types de transport de marchandise",
   "Camionnette avec hayon (chargement facile)",
 ];
 

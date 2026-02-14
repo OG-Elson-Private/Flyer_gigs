@@ -76,9 +76,9 @@ Le flyer de reference (moving-company-service-flyer) utilise :
 
 | Champ          | Valeur                                         |
 |----------------|------------------------------------------------|
-| Nom du service | Elvis Transport & Demenagement                 |
+| Nom du service | Transport & Demenagement Express                 |
 | Zone           | Liege et environs (rayon ~50km)                |
-| Contact        | 0488 48 66 58                                  |
+| Contact        | +32 467 83 92 99                                  |
 | Disponibilite  | A convenir par telephone                       |
 | Vehicule       | Camionnette caisse avec hayon (~15-20m3)       |
 
@@ -111,13 +111,13 @@ Sous-titre : "Service rapide, prix imbattables, region de Liege"
 
 ### Call to Action
 
-- Numero : 0488 48 66 58
+- Numero : +32 467 83 92 99
 - Texte : "Appelez pour un devis gratuit !" ou "Contactez-nous maintenant !"
 
 ### Footer
 
-Elvis Transport & Demenagement | Liege et environs
-Tel: 0488 48 66 58
+Transport & Demenagement Express | Liege et environs
+Tel: +32 467 83 92 99
 
 ### Images
 
@@ -217,7 +217,7 @@ flyer-gigs/
 **CTASection.tsx :**
 - Fond orange vif (ou badge orange)
 - Texte "Appelez pour un devis gratuit !"
-- Numero : 0488 48 66 58 en TRES GROS (le plus visible du flyer)
+- Numero : +32 467 83 92 99 en TRES GROS (le plus visible du flyer)
 - Police Extra Bold
 
 **WhyUsSection.tsx :**

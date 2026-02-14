@@ -21,7 +21,7 @@ function CheckIconOrange() {
 export default function WhyUsSection() {
   return (
     <div className="px-8 pt-6 pb-4">
-      <h2 className="text-[19px] font-extrabold text-flyer-dark uppercase mb-4 tracking-wide">
+      <h2 className="text-[18px] font-extrabold text-flyer-dark uppercase mb-4 tracking-wide">
         Pourquoi Nous ?
       </h2>
       <ul className="space-y-3">

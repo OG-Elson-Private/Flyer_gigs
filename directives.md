@@ -206,7 +206,7 @@ NOS SERVICES
 |  Appelez pour un devis       |
 |  gratuit !                   |
 |                              |
-|  Tel: 0488 48 66 58          |  <- Le PLUS GROS texte
+|  Tel: +32 467 83 92 99          |  <- Le PLUS GROS texte
 |                              |
 +------------------------------+
 ```
@@ -232,8 +232,8 @@ POURQUOI NOUS ?
 ### Footer Section (~10%)
 
 ```
-Elvis Transport & Demenagement | Liege et environs
-Tel: 0488 48 66 58
+Transport & Demenagement Express | Liege et environs
+Tel: +32 467 83 92 99
 ```
 
 - Sobre, compact
@@ -369,7 +369,7 @@ Dans `package.json` :
 [ ] Le flyer fait exactement 1080x1528px
 [ ] Le conteneur est centre sur la page
 [ ] Le titre "DEMENAGEMENT ?" est lisible et impactant
-[ ] Le numero 0488 48 66 58 est le PLUS GROS texte du flyer
+[ ] Le numero +32 467 83 92 99 est le PLUS GROS texte du flyer
 [ ] La photo camionnette est affichee et bien integree
 [ ] Les formes decoratives sont visibles et bien positionnees
 [ ] Les 5 services sont listes
@@ -393,8 +393,8 @@ Dans `package.json` :
 
 ## Informations de Contact (pour le flyer)
 
-- **Nom du service :** Elvis Transport & Demenagement
-- **Telephone :** 0488 48 66 58
+- **Nom du service :** Transport & Demenagement Express
+- **Telephone :** +32 467 83 92 99
 - **Zone :** Liege et environs
 - **Disponibilite :** A convenir par telephone
 - **Vehicule :** Camionnette caisse ~20m3 avec hayon

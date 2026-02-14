@@ -1,5 +1,5 @@
 const services = [
-  "Mini-déménagement (studios, kots, pièces)",
+  "Déménagement toutes tailles (studio → maison)",
   "Transport de meubles & électroménager",
   "Livraison achats 2ememain / Marketplace / IKEA",
   "Transport de colis & marchandises",

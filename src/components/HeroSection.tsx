@@ -18,16 +18,17 @@ export default function HeroSection() {
 
       {/* Main title - right side */}
       <div className="absolute top-6 right-8 text-right z-20">
-        <h1 className="text-[64px] font-black leading-[0.9] text-flyer-dark uppercase">
-          DÉMÉNA
+        <h1 className="text-[52px] font-black leading-[0.95] text-flyer-dark uppercase">
+          TRANSPORT
+          <br />
+          <span className="text-flyer-orange">&</span> DÉMÉNA
           <br />
           GEMENT
-          <span className="text-flyer-orange">?</span>
         </h1>
         <p className="text-[17px] font-semibold text-flyer-dark/70 mt-3 leading-snug">
-          Vous bougez,
+          Meubles, colis, marchandises
           <br />
-          <span className="text-flyer-dark font-bold">on transporte !</span>
+          <span className="text-flyer-dark font-bold">on s&apos;en charge !</span>
         </p>
       </div>
 

@@ -22,8 +22,20 @@ Creer une page web statique contenant un flyer promotionnel pour un service de d
 
 ### Configuration du Depot
 
-**Repository distant :** git@github.com:OG-Elson-Private/Flyer_gigs.git
+**Repository distant :** https://github.com/OG-Elson-Private/Flyer_gigs.git
 **Branche principale :** main
+
+### Securite des Credentials Git
+
+**IMPORTANT : Ne JAMAIS mettre le token GitHub directement dans l'URL du remote.**
+
+Le token est stocke de maniere securisee dans `~/.git-credentials` (permissions 600).
+Git utilise le credential helper `store` configure globalement pour lire ce fichier.
+
+- Le remote doit toujours etre sous la forme : `https://github.com/OG-Elson-Private/Flyer_gigs.git` (SANS token)
+- Le token est lu automatiquement par git via `credential.helper=store`
+- Ne jamais utiliser `git remote set-url` avec un token dans l'URL
+- Pour mettre a jour le token : editer `~/.git-credentials`
 
 ### Workflow Git
 

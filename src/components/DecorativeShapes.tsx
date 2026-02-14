@@ -1,56 +1,64 @@
 export default function DecorativeShapes() {
   return (
     <div className="absolute inset-0 z-0 overflow-hidden">
-      {/* Large purple curve - top left */}
-      <div
-        className="absolute -top-20 -left-40 w-[700px] h-[700px] rounded-full opacity-90"
-        style={{
-          background: "linear-gradient(135deg, #4A1A8A 0%, #6B3FA0 100%)",
-        }}
-      />
+      {/* Large purple curve - left side, sweeping from top-left down */}
+      <svg
+        className="absolute top-0 left-0 h-full"
+        width="450"
+        height="1528"
+        viewBox="0 0 450 1528"
+        fill="none"
+      >
+        <path
+          d="M-100 0 L200 0 Q420 400 280 764 Q140 1100 300 1528 L-100 1528 Z"
+          fill="#4A1A8A"
+        />
+      </svg>
 
-      {/* Smaller purple accent - top right */}
-      <div
-        className="absolute top-10 right-0 w-[300px] h-[500px] opacity-80"
-        style={{
-          background: "linear-gradient(180deg, #4A1A8A 0%, #6B3FA0 60%, transparent 100%)",
-          borderRadius: "0 0 0 200px",
-        }}
-      />
+      {/* Gray curve accent - left side, overlapping purple */}
+      <svg
+        className="absolute top-0 left-0 h-full opacity-20"
+        width="350"
+        height="1528"
+        viewBox="0 0 350 1528"
+        fill="none"
+      >
+        <path
+          d="M-50 0 L150 0 Q380 350 220 700 Q80 1000 250 1528 L-50 1528 Z"
+          fill="#9CA3AF"
+        />
+      </svg>
 
-      {/* Gray wave - middle right */}
-      <div
-        className="absolute top-[580px] -right-20 w-[500px] h-[400px] opacity-20"
-        style={{
-          background: "linear-gradient(200deg, #4A1A8A 0%, #9CA3AF 100%)",
-          borderRadius: "200px 0 0 200px",
-        }}
-      />
+      {/* Orange shape - right side, behind CTA area */}
+      <svg
+        className="absolute bottom-[280px] right-0"
+        width="550"
+        height="320"
+        viewBox="0 0 550 320"
+        fill="none"
+      >
+        <ellipse
+          cx="400"
+          cy="160"
+          rx="350"
+          ry="160"
+          fill="#FF6B00"
+        />
+      </svg>
 
-      {/* Orange accent strip - middle */}
-      <div
-        className="absolute top-[620px] left-0 w-[60px] h-[300px] opacity-70"
-        style={{
-          background: "linear-gradient(180deg, #FF6B00 0%, #E05E00 100%)",
-          borderRadius: "0 30px 30px 0",
-        }}
-      />
+      {/* Small purple accent - bottom left */}
+      <svg
+        className="absolute bottom-[60px] left-[100px] opacity-30"
+        width="200"
+        height="200"
+        viewBox="0 0 200 200"
+        fill="none"
+      >
+        <circle cx="100" cy="100" r="100" fill="#4A1A8A" />
+      </svg>
 
-      {/* Purple curve - bottom left */}
-      <div
-        className="absolute -bottom-40 -left-40 w-[500px] h-[500px] rounded-full opacity-30"
-        style={{
-          background: "linear-gradient(45deg, #4A1A8A 0%, #6B3FA0 100%)",
-        }}
-      />
-
-      {/* Small gray circle - decorative */}
-      <div
-        className="absolute bottom-[200px] right-[100px] w-[150px] h-[150px] rounded-full opacity-10"
-        style={{
-          background: "#4A1A8A",
-        }}
-      />
+      {/* Thin purple line - decorative */}
+      <div className="absolute bottom-[250px] left-[50px] w-[200px] h-[3px] bg-flyer-purple opacity-40" />
     </div>
   );
 }

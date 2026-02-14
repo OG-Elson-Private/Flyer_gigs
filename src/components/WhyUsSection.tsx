@@ -6,11 +6,13 @@ const advantages = [
 
 function CheckIconOrange() {
   return (
-    <svg className="w-6 h-6 flex-shrink-0 text-flyer-orange" fill="currentColor" viewBox="0 0 20 20">
+    <svg className="w-6 h-6 flex-shrink-0" fill="none" viewBox="0 0 24 24">
       <path
-        fillRule="evenodd"
-        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-        clipRule="evenodd"
+        d="M5 13l4 4L19 7"
+        stroke="#FF6B00"
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
@@ -18,15 +20,15 @@ function CheckIconOrange() {
 
 export default function WhyUsSection() {
   return (
-    <div className="px-16 py-8">
-      <h2 className="text-[28px] font-bold text-flyer-purple uppercase mb-5 tracking-wide">
+    <div className="px-10 pt-8 pb-6">
+      <h2 className="text-[26px] font-extrabold text-flyer-dark uppercase mb-6 tracking-wide">
         Pourquoi Nous ?
       </h2>
       <ul className="space-y-4">
         {advantages.map((advantage, index) => (
-          <li key={index} className="flex items-start gap-3">
+          <li key={index} className="flex items-center gap-3">
             <CheckIconOrange />
-            <span className="text-[17px] font-medium text-flyer-dark leading-snug">
+            <span className="text-[17px] font-medium text-flyer-dark/80 leading-snug">
               {advantage}
             </span>
           </li>

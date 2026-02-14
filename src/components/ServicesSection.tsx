@@ -8,11 +8,14 @@ const services = [
 
 function CheckIcon() {
   return (
-    <svg className="w-6 h-6 flex-shrink-0 text-flyer-green" fill="currentColor" viewBox="0 0 20 20">
+    <svg className="w-7 h-7 flex-shrink-0" fill="none" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="10" fill="#4A1A8A" />
       <path
-        fillRule="evenodd"
-        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-        clipRule="evenodd"
+        d="M8 12l3 3 5-5"
+        stroke="white"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
@@ -20,13 +23,13 @@ function CheckIcon() {
 
 export default function ServicesSection() {
   return (
-    <div className="px-16 py-10">
-      <h2 className="text-[30px] font-bold text-flyer-purple uppercase mb-6 tracking-wide">
+    <div className="pl-16 pr-8 pt-12 pb-8">
+      <h2 className="text-[28px] font-extrabold text-flyer-purple uppercase mb-8 tracking-wide">
         Nos Services
       </h2>
-      <ul className="space-y-4">
+      <ul className="space-y-5">
         {services.map((service, index) => (
-          <li key={index} className="flex items-start gap-3">
+          <li key={index} className="flex items-center gap-4">
             <CheckIcon />
             <span className="text-[18px] font-medium text-flyer-dark leading-snug">
               {service}

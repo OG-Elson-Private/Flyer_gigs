@@ -2,26 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #e5e5e5;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  html, body {
+    width: 210mm;
+    height: 297mm;
+    margin: 0;
+    padding: 0;
+    background: white;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .flyer-container {
+    transform: scale(0.735);
+    transform-origin: top center;
+  }
+
+  .page-wrapper {
+    background: white !important;
+    padding: 0 !important;
+    min-height: auto !important;
   }
 }

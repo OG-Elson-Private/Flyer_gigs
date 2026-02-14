@@ -24,7 +24,7 @@ function CheckIcon() {
 
 export default function ServicesSection() {
   return (
-    <div className="pl-12 pr-6 pt-8 pb-6">
+    <div className="pl-20 pr-6 pt-8 pb-6">
       <h2 className="text-[20px] font-extrabold text-flyer-purple uppercase mb-5 tracking-wide">
         Nos Services
       </h2>

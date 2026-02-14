@@ -1,6 +1,6 @@
 export default function FooterSection() {
   return (
-    <div className="px-12 py-4 border-t border-flyer-purple/20">
+    <div className="pl-20 pr-12 py-4 border-t border-flyer-purple/20">
       <div className="flex items-center justify-between">
         <p className="text-[11px] text-flyer-dark/70 font-medium">
           Transport & Déménagement <span className="mx-1">|</span> Liège et environs

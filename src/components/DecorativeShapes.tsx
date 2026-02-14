@@ -4,13 +4,13 @@ export default function DecorativeShapes() {
       {/* Large purple curve - left side */}
       <svg
         className="absolute top-0 left-0 h-full"
-        width="280"
+        width="200"
         height="1123"
-        viewBox="0 0 280 1123"
+        viewBox="0 0 200 1123"
         fill="none"
       >
         <path
-          d="M-80 0 L120 0 Q260 280 170 500 Q80 720 180 1123 L-80 1123 Z"
+          d="M-80 0 L60 0 Q130 280 70 500 Q10 720 80 1123 L-80 1123 Z"
           fill="#4A1A8A"
         />
       </svg>
@@ -18,20 +18,20 @@ export default function DecorativeShapes() {
       {/* Gray curve accent - left side */}
       <svg
         className="absolute top-0 left-0 h-full opacity-15"
-        width="220"
+        width="160"
         height="1123"
-        viewBox="0 0 220 1123"
+        viewBox="0 0 160 1123"
         fill="none"
       >
         <path
-          d="M-40 0 L90 0 Q230 240 130 470 Q40 680 150 1123 L-40 1123 Z"
+          d="M-40 0 L30 0 Q110 240 50 470 Q-10 680 60 1123 L-40 1123 Z"
           fill="#9CA3AF"
         />
       </svg>
 
       {/* Small purple accent - bottom left */}
       <svg
-        className="absolute bottom-[100px] left-[50px] opacity-20"
+        className="absolute bottom-[100px] left-[20px] opacity-20"
         width="120"
         height="120"
         viewBox="0 0 120 120"

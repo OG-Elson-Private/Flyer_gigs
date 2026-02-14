@@ -8,7 +8,7 @@ const services = [
 
 function CheckIcon() {
   return (
-    <svg className="w-7 h-7 flex-shrink-0" fill="none" viewBox="0 0 24 24">
+    <svg className="w-5 h-5 flex-shrink-0" fill="none" viewBox="0 0 24 24">
       <circle cx="12" cy="12" r="10" fill="#4A1A8A" />
       <path
         d="M8 12l3 3 5-5"
@@ -23,15 +23,15 @@ function CheckIcon() {
 
 export default function ServicesSection() {
   return (
-    <div className="pl-16 pr-8 pt-12 pb-8">
-      <h2 className="text-[28px] font-extrabold text-flyer-purple uppercase mb-8 tracking-wide">
+    <div className="pl-12 pr-6 pt-8 pb-6">
+      <h2 className="text-[20px] font-extrabold text-flyer-purple uppercase mb-5 tracking-wide">
         Nos Services
       </h2>
-      <ul className="space-y-5">
+      <ul className="space-y-3">
         {services.map((service, index) => (
-          <li key={index} className="flex items-center gap-4">
+          <li key={index} className="flex items-center gap-3">
             <CheckIcon />
-            <span className="text-[18px] font-medium text-flyer-dark leading-snug">
+            <span className="text-[13px] font-medium text-flyer-dark leading-snug">
               {service}
             </span>
           </li>
